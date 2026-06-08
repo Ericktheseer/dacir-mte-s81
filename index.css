@@ -1,0 +1,86 @@
+:root{
+    --ejed-blue:#0A3161;
+    --ejed-red:#B31942;
+    --ejed-white:#FFFFFF;
+}
+
+.hero-section{
+    min-height:500px;
+
+    background-image:
+    linear-gradient(
+        rgba(10,49,97,.75),
+        rgba(10,49,97,.75)
+    ),
+    url('https://img.magnific.com/free-photo/gradient-dark-blue-futuristic-digital-background_53876-160646.jpg?semt=ais_hybrid&w=740&q=80');
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    color: white;
+}
+
+.hero-section h1{
+    text-shadow: 0 2px 10px rgba(0,0,0,.4);
+}
+
+.hero-section p{
+    text-shadow: 0 2px 6px rgba(0,0,0,.4);
+}
+
+.bg-ejed-blue{
+    background-color: var(--ejed-blue);
+}
+
+.text-ejed-red{
+    color: var(--ejed-red);
+}
+
+.btn-ejed{
+    background-color: var(--ejed-red);
+    color:white;
+}
+
+.btn-ejed:hover{
+    background-color:#8d1434;
+    color:white;
+}
+
+.placeholder-box{
+    height:200px;
+    border:2px solid #ccc;
+}
+
+.card-img-overlay{
+    background: linear-gradient(
+        to top,
+        rgba(0,0,0,.75),
+        rgba(0,0,0,.10)
+    );
+}
+
+.card-img-overlay h3,
+.card-img-overlay p{
+    text-shadow: 0 2px 8px rgba(0,0,0,.5);
+}
+
+.category-img{
+    height:250px;
+    object-fit:contain;
+    background:white;
+    padding:20px;
+}
+
+.category-card{
+    transition:.3s;
+}
+
+.category-card:hover{
+    transform:translateY(-5px);
+}
+
+.product-image{
+    height:305px;
+    background:#f8f9fa;
+}
